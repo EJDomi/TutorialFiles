@@ -80,6 +80,8 @@ class VLQAna : public edm::EDFilter {
     edm::EDGetTokenT<double>         t_htHat      ;
     edm::EDGetTokenT<vector<int>>    t_lhewtids   ;
     edm::EDGetTokenT<vector<double>> t_lhewts     ;
+  
+    edm::EDGetTokenT<double>         t_eventExampleVar ;
 
     ElectronMaker electronmaker                   ; 
     MuonMaker muonmaker                           ; 
